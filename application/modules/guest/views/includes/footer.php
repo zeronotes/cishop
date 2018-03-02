@@ -50,8 +50,7 @@
                 <div class="map">
                     <div class="h2">Bản đồ</div>
                     <div class="content" id="map-canvas" style="padding:0px;">
-
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1317.0631123866235!2d105.87279144154326!3d20.983935587244797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac1fa3fdc13f%3A0xfd68970474cd664d!2sc%C3%B4ng+ty+TNHH+Wintech+Vi%E1%BB%87t+Nam!5e0!3m2!1svi!2s!4v1492567861888" width="100%" height="100%" allowfullscreen></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1862.509573357537!2d105.79249486463578!3d20.991869601452105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135acb791efde41%3A0x1e77d8baa14e19a3!2zMzQgVHJ1bmcgVsSDbiwgVOG7qyBMacOqbSwgSMOgIE7hu5lpLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1519957961499" width="100%" height="100%" allowfullscreen></iframe>
                     </div>
                 
                 </div>
@@ -73,17 +72,46 @@
                 }
             </style>
             <div class="address">
-                <div class="h1 yl">CÔNG TY TNHH WINTECH VIỆT NAM</div>
+                <div class="h1 yl">CÔNG TY CỔ PHẦN DIỆT MỐI, MUỖI MIỀN BẮC</div>
                 <?php
-                    if ($footers[0]['Body']) {
+                    //if ($footers[0]['Body']) {
                 ?>
                 <div class="col-lg-12">
                     <div class="content yl">
-                        <?php echo $footers[0]['Body'] ?>
+                        <?php //echo $footers[0]['Body'] ?>
+                        <p style="text-align: center;">&nbsp;</p>
+
+                        <p style="text-align: center;">Địa chỉ&nbsp;: P1C5 TT Viện Sốt Rét- Trung Văn - Từ Liêm - Hà Nội</p>
+
+                        <p style="text-align: center;">Điện thoại : 02422404658</p>
+
+                        <p style="text-align: center;">Hotline :&nbsp;0975376090</p>
+
+                        <p style="text-align: center;">Email: &nbsp;moimuoimienbac@welthyvn.net</p>
+
+                        <p>&nbsp;</p>
+
+                        <div id="fb-root">&nbsp;</div>
+
+                        <p>&nbsp;</p>
+
+                        <p><script>(function(d, s, id) {
+                          var js, fjs = d.getElementsByTagName(s)[0];
+                          if (d.getElementById(id)) return;
+                          js = d.createElement(s); js.id = id;
+                          js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.5";
+                          fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));</script></p>
+
+                        <p>&nbsp;</p>
+
+                        <div class="fb-like" data-action="like" data-href="http://wintechvn.com/" data-layout="standard" data-share="true" data-show-faces="true">&nbsp;</div>
+
+                        <p>&nbsp;</p>
                     </div>
                 </div>
                 <?php
-                    }
+                    //}
                 ?>
             </div>
         </div>
@@ -93,7 +121,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="content"><span>Copyright © 2015 by WINTECH. All rights reserved.</span></div>
+                <div class="content"><span>Copyright © 2018 by WEALTHYVN. All rights reserved.</span></div>
             </div>
         </div>
     </div>
@@ -293,16 +321,7 @@
             });
         });
     </script> 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-68037117-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 <script lang="javascript">
 (function() {var _h1= document.getElementsByTagName('title')[0] || false;
 var product_name = ''; if(_h1){product_name= _h1.textContent || _h1.innerText;}var ga = document.createElement('script'); ga.type = 'text/javascript';
