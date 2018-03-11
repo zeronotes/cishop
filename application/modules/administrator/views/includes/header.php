@@ -3,7 +3,7 @@
 <head>
 <!-- CSS start here -->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>HTSB© - CMS System</title>
+<title>Admin Control Panel</title>
 <link rel="shortcut icon" href="<?= base_url()?>resources/ui_images/favi.png" type="image/x-icon">
 <script src="<?= base_url()?>resources/js/jqueries/jquery-1.8.3.min.js"></script>
 <script type="text/javascript" src="<?= base_url()?>resources/js/ajaxfileupload.js"></script>
@@ -48,7 +48,7 @@
     <div class="container_12">
         <div class="grid_4">
             <div id="logo">
-                <a target="_blank" href="http://htsb.vn"></a>
+                <a href="/administrator"></a>
             </div>
             <div id="seperator"></div>
             <div id="cp">
@@ -61,7 +61,7 @@
             </div>
             <div id="seperator_right"></div>
             <div id="help">
-                <a target="_blank" href="http://htsb.com.vn/"></a>
+                <a target="_blank" href="#"></a>
             </div>
             <div id="seperator_right"></div>
             <div id="view">

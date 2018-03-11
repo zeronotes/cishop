@@ -51,15 +51,15 @@
                         <ul>
                             <li class="first">
                                 <div class="one">Cam kết</div>
-                                <div class="two">Giá tốt nhất</div>
+                                <div class="two">Chất lượng tốt nhất</div>
                             </li>
                             <li class="second">
-                                <div class="one">Giao hàng</div>
-                                <div class="two">Toàn quốc</div>
+                                 <div class="one">Dịch vụ</div>
+                                <div class="two">Uy tín nhất</div> 
                             </li>
                             <li class="third last">
-                                <div class="one">Thanh toán</div>
-                                <div class="two">Khi nhận hàng</div>
+                                <div class="one">Giao hàng</div>
+                                <div class="two">Toàn quốc</div>
                             </li>
                         </ul>
                     </div>

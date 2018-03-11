@@ -13,7 +13,7 @@
             <div class="grid_12">
 
                 <div id="develop">
-                    Phát triển bởi HTSB Software / 2013
+                    Phát triển bởi CI SYSTEM / 2017
                 </div>
             </div>
         </div>

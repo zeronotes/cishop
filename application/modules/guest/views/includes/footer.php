@@ -321,17 +321,5 @@
             });
         });
     </script> 
-
-<script lang="javascript">
-(function() {var _h1= document.getElementsByTagName('title')[0] || false;
-var product_name = ''; if(_h1){product_name= _h1.textContent || _h1.innerText;}var ga = document.createElement('script'); ga.type = 'text/javascript';
-ga.src = '//live.vnpgroup.net/js/web_client_box.php?hash=d1fb8822e43a07de389c23a386ee0ef4&data=eyJzc29faWQiOjI1ODkzNTQsImhhc2giOiIzMWY4MzZmMjI2ZWI2NjMwNGQ4NGJhYTNmMjA2ODIxOSJ9&pname='+product_name;
-var s = document.getElementsByTagName('script');s[0].parentNode.insertBefore(ga, s[0]);})();
-    $(document).ready(function(){
-        // setTimeout(function(){
-        //       // $('.vgc_tt').contents().unwrap().wrap('<div class="vgc_tt" onclick="vgc_sh_chat_contact();"/>');
-           
-        // },1000);
-      
-    });
-</script>
+    <script lang="javascript">var _vc_data = {id : 5358434, secret : 'a387f25c47cdbecc91c7c95fe4140b66'};(function() {var ga = document.createElement('script');ga.type = 'text/javascript';ga.src = '//live.vnpgroup.net/client/tracking.js';var s = document.getElementsByTagName('script');s[0].parentNode.insertBefore(ga, s[0]);})();
+    </script>             
