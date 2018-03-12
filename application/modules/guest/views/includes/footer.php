@@ -83,11 +83,11 @@
 
                         <p style="text-align: center;">Địa chỉ&nbsp;: P1C5 TT Viện Sốt Rét- Trung Văn - Từ Liêm - Hà Nội</p>
 
-                        <p style="text-align: center;">Điện thoại : 02422404658</p>
+                        <p style="text-align: center;">Điện thoại : 024 2240 4658</p>
 
-                        <p style="text-align: center;">Hotline :&nbsp;0975376090</p>
+                        <p style="text-align: center;">Hotline :&nbsp;097 5376 090 - 098 1231 002</p>
 
-                        <p style="text-align: center;">Email: &nbsp;moimuoimienbac@welthyvn.net</p>
+                        <p style="text-align: center;">Email: &nbsp;moimuoimienbac@wealthyvn.net</p>
 
                         <p>&nbsp;</p>
 
@@ -105,7 +105,7 @@
 
                         <p>&nbsp;</p>
 
-                        <div class="fb-like" data-action="like" data-href="http://wintechvn.com/" data-layout="standard" data-share="true" data-show-faces="true">&nbsp;</div>
+                        <div class="fb-like" data-action="like" data-href="http://wealthyvn.net/" data-layout="standard" data-share="true" data-show-faces="true">&nbsp;</div>
 
                         <p>&nbsp;</p>
                     </div>
