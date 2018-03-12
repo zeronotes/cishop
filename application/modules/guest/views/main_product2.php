@@ -40,7 +40,7 @@
         <div id="main" class="wrapper">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
+                    <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
                         <div id="sidebar-left">
                             <div id="prd-cate-list" class="hidden-xs">
                                 <ul class="main-page">
@@ -106,7 +106,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
                         <div class="main-content">
                             <div class="breadcrumb">
                                 <?= $breadcrumb ?>
