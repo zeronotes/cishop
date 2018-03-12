@@ -18,7 +18,7 @@ $config['modules_locations'] = array(
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://demo.azthietke.website/wealthyvn2/';
+$config['base_url']	= 'http://citest.com/';
 
 /*
 |--------------------------------------------------------------------------
@@ -195,7 +195,7 @@ $config['log_threshold'] = 4;
 | application/logs/ folder. Use a full server path with trailing slash.
 |
 */
-$config['log_path'] = '';
+$config['log_path'] = 'var/www/wintechvn/application/logs/ci_error.log';
 
 /*
 |--------------------------------------------------------------------------
