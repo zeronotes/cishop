@@ -101,17 +101,18 @@
                     </li>
                     <li><a href="javascript:void(0);">Nội dung</a>
                         <ul>
-                            <li><a class="first" href="<?= base_url()?>administrator/news">Danh sách tin tức</a></li>
-                            <li><a href="<?= base_url()?>administrator/categories/news">Danh mục tin tức</a></li>
-                            <!--<li><a href="<?= base_url()?>administrator/xetnghiem">Danh sách xét nghiệm</a></li>-->
-                            <li><a href="<?= base_url()?>administrator/ads">Danh sách quảng cáo</a></li>
-                            <li><a href="<?= base_url()?>administrator/categories/ads">Nhóm quảng cáo</a></li>
-                            <li><a class="last" href="<?= base_url()?>administrator/newstags">Danh sách tag tin tức</a></li>
-                            <!--<li><a href="<?= base_url()?>administrator/polls">Nhận xét, đánh giá</a></li>-->
-                            <!--<li><a href="<?= base_url()?>administrator/people">Nhân sự</a></li>-->
-                            <!--<li><a href="<?= base_url()?>administrator/dichvu">Dịch vụ</a></li>-->
-                            <!-- <li><a href="<?= base_url()?>administrator/certificate">Chúng nhận - chứng chỉ</a></li> -->
-                            <!--<li><a href="<?= base_url()?>administrator/onepages/payment-transfer">Thanh toán và vận chuyển</a></li>-->
+                            <li><a class="first" href="<?= base_url()?>administrator/news?key=&cate=10">Danh sách trang</a></li>
+                            <li><a href="<?= base_url()?>administrator/news?key=&cate=17">Danh sách tin tức</a></li>
+                            <li><a href="<?= base_url()?>administrator/news?key=&cate=31">Danh sách Tuyển dụng</a></li>
+                            <!-- <li><a href="<?//= base_url()?>administrator/ads">Danh sách quảng cáo</a></li> -->
+                            <!-- <li><a href="<?//= base_url()?>administrator/categories/ads">Nhóm quảng cáo</a></li> -->
+                            <li><a href="<?= base_url()?>administrator/categories/news">Danh mục nội dung</a></li>
+                            <li><a class="last" href="<?= base_url()?>administrator/newstags">Danh sách tag</a></li>
+                            <!--<li><a href="<?//= base_url()?>administrator/polls">Nhận xét, đánh giá</a></li>-->
+                            <!--<li><a href="<?//= base_url()?>administrator/people">Nhân sự</a></li>-->
+                            <!--<li><a href="<?//= base_url()?>administrator/dichvu">Dịch vụ</a></li>-->
+                            <!-- <li><a href="<?//= base_url()?>administrator/certificate">Chúng nhận - chứng chỉ</a></li> -->
+                            <!--<li><a href="<?//= base_url()?>administrator/onepages/payment-transfer">Thanh toán và vận chuyển</a></li>-->
                         </ul>
                     </li>
                     <li><a href="javascript:void(0);">Khách hàng</a>

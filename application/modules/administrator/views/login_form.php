@@ -156,7 +156,8 @@
 		
 		<div id="login-wrapper" class="png_bg">
 			<div id="login-top">
-				<img src="<?= base_url()?>resources/ui_images/background/logo_small.png" alt="Login" title="Login">			
+				<h1 style="color: #0B3047">Admin Control Panel</h1>
+				<!-- <img src="<?//= base_url()?>resources/ui_images/background/logo_small.png" alt="Login" title="Login">			 -->
 			</div>
 			
 			<div id="login-content">
