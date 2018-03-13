@@ -79,9 +79,9 @@
         <div class="grid_12">
             <div id="menu">
                 <ul>
-                    <li><a href="javascript:void(0);">Đặt hàng</a>
+                    <li><a href="javascript:void(0);">Đơn hàng</a>
                         <ul>
-                            <li><a class="first" href="<?= base_url()?>administrator/orders">Danh sách đặt hàng</a></li>
+                            <li><a class="first" href="<?= base_url()?>administrator/orders">Danh sách đơn hàng</a></li>
                         </ul>
                     </li>
                     <!-- <li><a href="javascript:void(0);">T.kiếm sản phẩm</a>
@@ -95,6 +95,7 @@
                     <li><a href="javascript:void(0);">Sản phẩm</a>
                         <ul>
                             <li><a class="first" href="<?= base_url()?>administrator/products">Danh sách sản phẩm</a></li>
+                            <li><a href="<?= base_url()?>administrator/products/add">Thêm sản phẩm mới</a></li>
                             <li><a href="<?= base_url()?>administrator/categories/product">Danh mục sản phẩm</a></li>
                             <li><a class="last" href="<?= base_url()?>administrator/productstags">Danh sách tag sản phẩm</a></li>
                         </ul>
