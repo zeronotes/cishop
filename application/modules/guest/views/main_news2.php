@@ -117,7 +117,11 @@
                                 <?= $breadcrumb ?>
                             </div>
                             <div class="h1 page-title">
+                                <?php if($parent -> Title == 'Trang'): ?>
+                                    <?php if($SEOTitle !== false) echo $SEOTitle;?>
+                                <?php else: ?>
                                 <?= $parent -> Title ?>
+                                <?php endif ?>
                             </div>
                             <div class="news-content">
                                 <div class="widget row">

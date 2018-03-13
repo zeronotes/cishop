@@ -140,7 +140,7 @@
                                                                 Mã sản phẩm: <?= $hcpp -> SKU ?>
                                                             </div>
                                                             <?php if ($hcpp -> SellPrice > 0) { ?>
-                                                                <span class="new-price">Giá: <?= number_format($hcpp -> SellPrice,0,".",".") . " đ" ?></span>
+                                                                <span class="new-price">Giá: <?= $hcpp -> SellPrice ?> đ</span>
                                                             <?php } else { ?>
                                                                 <span class="new-price">Liên hệ</span>
                                                             <?php } ?>
