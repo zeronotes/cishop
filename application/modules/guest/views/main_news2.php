@@ -49,8 +49,11 @@
                     <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
                         <div id="sidebar-left">
                             <div class="dmsp block">
-                                <div class="content fix">
-                                    <?= $cate_menu ?>
+                                <div id="prd-cate-list" class="hidden-xs">
+                                    <ul class="main-page">
+                                        <?= $cate_menu ?>
+                                        <div class="clear"></div>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="spnb block">
