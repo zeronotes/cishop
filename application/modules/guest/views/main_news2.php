@@ -57,7 +57,7 @@
                                 </div>
                             </div>
                             <div class="spnb block">
-                                <div class="h2">Sản phẩm nổi bật</div>
+                                <div class="h2">Sản phẩm nổi bật2</div>
                                 <div class="content fix">
                                     <ul>
                                         <?php if($HotProducts) { 
@@ -65,10 +65,10 @@
                                         ?>
                                             <li>
                                                 <div class="images">
-                                                    <a href="<?= $hp -> Slug ?>"><img alt="<?= $hp -> Title ?>" src="<?= base_url() . 'resources/uploads/images/automatic/' . $hp -> ImageURL ?>"/></a>
+                                                    <a href="/<?= $hp -> Slug ?>"><img alt="<?= $hp -> Title ?>" src="<?= base_url() . 'resources/uploads/images/automatic/' . $hp -> ImageURL ?>"/></a>
                                                 </div>
                                                 <div class="title">
-                                                    <a href="<?= $hp -> Slug ?>"><?= $hp -> Title ?></a>
+                                                    <a href="/<?= $hp -> Slug ?>"><?= $hp -> Title ?></a>
                                                 </div>
                                                 <div class="sku">
                                                     Mã sản phẩm: <?= $hp -> SKU ?>
@@ -93,10 +93,10 @@
                                         ?>
                                             <li>
                                                 <div class="images">
-                                                    <a href="<?= $sp -> Slug ?>"><img src="<?= base_url() . 'resources/uploads/images/automatic/' . $sp -> ImageURL ?>" alt="<?= $sp -> Title ?>"/></a>
+                                                    <a href="/<?= $sp -> Slug ?>"><img src="<?= base_url() . 'resources/uploads/images/automatic/' . $sp -> ImageURL ?>" alt="<?= $sp -> Title ?>"/></a>
                                                 </div>
                                                 <div class="title">
-                                                    <a href="<?= $sp -> Slug ?>"><?= $sp -> Title ?></a>
+                                                    <a href="/<?= $sp -> Slug ?>"><?= $sp -> Title ?></a>
                                                 </div>
                                                 <div class="sku">
                                                     Mã sản phẩm: <?= $sp -> SKU ?>

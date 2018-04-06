@@ -63,10 +63,10 @@
                                         ?>
                                             <li>
                                                 <div class="images">
-                                                    <a href="<?= $hp -> Slug ?>"><img src="<?= base_url() . 'resources/uploads/images/automatic/' . $hp -> ImageURL ?>"/></a>
+                                                    <a href="/<?= $hp -> Slug ?>"><img src="<?= base_url() . 'resources/uploads/images/automatic/' . $hp -> ImageURL ?>"/></a>
                                                 </div>
                                                 <div class="title">
-                                                    <a href="<?= $hp -> Slug ?>"><?= $hp -> Title ?></a>
+                                                    <a href="/<?= $hp -> Slug ?>"><?= $hp -> Title ?></a>
                                                 </div>
                                                 <div class="sku">
                                                     Mã sản phẩm: <?= $hp -> SKU ?>
@@ -91,10 +91,10 @@
                                         ?>
                                             <li>
                                                 <div class="images">
-                                                    <a href="<?= $sp -> Slug ?>"><img src="<?= base_url() . 'resources/uploads/images/automatic/' . $sp -> ImageURL ?>"/></a>
+                                                    <a href="/<?= $sp -> Slug ?>"><img src="<?= base_url() . 'resources/uploads/images/automatic/' . $sp -> ImageURL ?>"/></a>
                                                 </div>
                                                 <div class="title">
-                                                    <a href="<?= $sp -> Slug ?>"><?= $sp -> Title ?></a>
+                                                    <a href="/<?= $sp -> Slug ?>"><?= $sp -> Title ?></a>
                                                 </div>
                                                 <div class="sku">
                                                     Mã sản phẩm: <?= $sp -> SKU ?>
