@@ -129,10 +129,10 @@
                                         <div class="row">
                                             <?php if($hcp -> products){ $hcp_counter = 0; foreach($hcp -> products as $hcpp) { $hcp_counter++; if($hcpp -> IsNew ==1){?>
                                                 <div class="col-xs-6 col-sm-4 col-lg-3 <?php if($hcp_counter >= 5) {echo "hidden-xs ";} if($hcp_counter >= 7) {echo "hidden-sm hidden-md";} ?>">
-                                                    <div class="thumbnail products">
-                                                        <a href="<?= base_url() . $hcpp -> Slug ?>"><img alt="<?= $hcpp -> Title ?>" src="<?= base_url() . 'resources/uploads/images/automatic/' . $hcpp -> ImageURL ?>"></a>
+                                                    <div class="thumbnail products test">
+                                                        <a href="<?= base_url() . $hcpp -> Slug ?>"><img alt="<?= $hcpp -> Title ?>" src="<?= base_url() . 'resources/uploads/images/automatic/' . $hcpp -> ImageURL ?>" style="max-height: 180px"></a>
                                                         <div class="title">
-                                                            <a href="nhua-ptfe-han-quoc"><?= $hcpp -> Title ?></a>
+                                                            <a href="lol"><?= $hcpp -> Title ?></a>
                                                         </div>
                                                         <div class="caption">
                                                             <div class="clear"></div>
