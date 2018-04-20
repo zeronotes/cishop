@@ -42,68 +42,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
                         <div id="sidebar-left">
-                            <div id="prd-cate-list" class="hidden-xs">
-                                <ul class="main-page">
-                                    <?= $menu_cate ?>
-                                    <div class="clear"></div>
-                                </ul>
-                            </div>
-                            <div class="spnb block">
-                                <div class="h2">Sản phẩm nổi bật</div>
-                                <div class="content fix">
-                                    <ul>
-                                        <?php if($HotProducts) { 
-                                            foreach ($HotProducts as $hp) { 
-                                        ?>
-                                            <li>
-                                                <div class="images">
-                                                    <a href="<?= $hp -> Slug ?>"><img  alt="<?= $hp -> Title ?>" src="<?= base_url() . 'resources/uploads/images/automatic/' . $hp -> ImageURL ?>"/></a>
-                                                </div>
-                                                <div class="title">
-                                                    <a href="<?= $hp -> Slug ?>"><?= $hp -> Title ?></a>
-                                                </div>
-                                                <div class="sku">
-                                                    Mã sản phẩm: <?= $hp -> SKU ?>
-                                                </div>
-                                                <div class="sellprice">
-                                                    <?= $hp -> SellPrice ?> VNĐ
-                                                </div>
-                                            </li>
-                                        <?php
-                                                }
-                                            }
-                                        ?>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="spnb block">
-                                <div class="h2">Sản phẩm bán chạy</div>
-                                <div class="content fix">
-                                    <ul>
-                                        <?php if($SellerProducts) { 
-                                            foreach ($SellerProducts as $sp) { 
-                                        ?>
-                                            <li>
-                                                <div class="images">
-                                                    <a href="<?= $sp -> Slug ?>"><img alt="<?= $sp -> Title ?>" src="<?= base_url() . 'resources/uploads/images/automatic/' . $sp -> ImageURL ?>"/></a>
-                                                </div>
-                                                <div class="title">
-                                                    <a href="<?= $sp -> Slug ?>"><?= $sp -> Title ?></a>
-                                                </div>
-                                                <div class="sku">
-                                                    Mã sản phẩm: <?= $sp -> SKU ?>
-                                                </div>
-                                                <div class="sellprice">
-                                                    <?= $sp -> SellPrice ?> VNĐ
-                                                </div>
-                                            </li>
-                                        <?php
-                                                }
-                                            }
-                                        ?>
-                                    </ul>
-                                </div>
-                            </div>
+                            <?= $this -> load -> view('guest/includes/sidebar2') ?>
                         </div>
                     </div>
                     <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
@@ -240,7 +179,11 @@
                                                                         <a href="<?= $rel -> Slug ?>"><?= $rel -> Title ?></a>
                                                                     </div>
                                                                     <div class="sellprice" style="margin-top: 5px;">
-                                                                        Giá: <?= number_format($rel -> SellPrice,0,".",".") . " VNĐ" ?>
+                                                                        Giá: <?php if($rel -> SellPrice != 0): ?>
+                                                                        <?= number_format($rel -> SellPrice,0,".",".") . " VNĐ" ?>
+                                                                    <?php else: ?>
+                                                                        Liên hệ
+                                                                    <?php endif ?>
                                                                     </div>
                                                                 </div>
                                                             </div>
