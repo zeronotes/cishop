@@ -142,7 +142,7 @@
                                                             <?php if ($hcpp -> SellPrice > 0) { ?>
                                                                 <span class="new-price">Giá: <?= $hcpp -> SellPrice ?> đ</span>
                                                             <?php } else { ?>
-                                                                <span class="new-price">Liên hệ</span>
+                                                                <span class="new-price">Giá: Liên hệ</span>
                                                             <?php } ?>
                                                             <span class="old-price"><?php if ($hcpp -> ListPrice > 0) echo number_format($hcpp -> ListPrice,0,".",".") . " đ"; ?></span>
                                                             <span class="sale-price hidden-xs hidden-sm"><?php if ($hcpp -> ListPrice > 0 && $hcpp -> SellPrice > 0) echo "Khuyến mãi giá trị lên đến <br /><b>" . number_format($hcpp -> ListPrice - $hcpp -> SellPrice,0,".",".") . " đ</b>"; ?></span>
